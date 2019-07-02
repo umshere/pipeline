@@ -1,5 +1,5 @@
 # pipeline
 pipeline test 
-[![Build Status](https://travis-ci.org/<username>/<reponame>.svg?branch=master)](https://travis-ci.org/<username>/<reponame>)
+[![Build Status](https://travis-ci.org/umshere/pipeline.svg?branch=master)](https://travis-ci.org/umshere/pipeline)
 
-[![Coverage Status](https://coveralls.io/repos/github/<username>/<reponame>/badge.svg?branch=master)](https://coveralls.io/github/<username>/<reponame>?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/umshere/pipeline/badge.svg?branch=master)](https://coveralls.io/github/umshere/pipeline?branch=master)
