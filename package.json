@@ -1,0 +1,27 @@
+{
+  "name": "pipeline",
+  "version": "1.0.0",
+  "description": "A service library for E2E Telemetry",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint --project \"./tsconfig.json\"",
+    "docs": "typedoc --out docs src",
+    "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs"
+  },
+  "author": "Umesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.0.10",
+    "chai": "^4.2.0",
+    "gh-pages": "^2.0.1",
+    "mocha": "^6.1.4",
+    "tslint": "^5.18.0",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.5.2"
+  }
+}
