@@ -1,8 +1,8 @@
 {
-  "name": "pipeline",
+  "name": "pipeline_umesh",
   "version": "1.0.0",
   "description": "A service library for E2E Telemetry",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --reporter spec",
     "build": "tsc",
@@ -11,7 +11,10 @@
     "docs": "typedoc --out docs src",
     "gh-pages": "rimraf docs && npm run docs && gh-pages -d docs",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec",
-    "ci": "npm run lint && npm run build && npm run cover"
+    "ci": "npm run lint && npm run build && npm run cover",
+    "postversion": "git push && git push --tags",
+    "prepublishOnly": "npm run ci",
+    "preversion": "npm run ci"
   },
   "author": "Umesh",
   "license": "ISC",
