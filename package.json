@@ -1,6 +1,6 @@
 {
   "name": "pipeline_umesh",
-  "version": "1.0.0",
+  "version": "1.0.0-rc.1",
   "description": "A service library for E2E Telemetry",
   "main": "dist/index.js",
   "scripts": {
